@@ -63,5 +63,4 @@ export default data;
 //       "Elle Woods, a fashionable sorority queen is dumped by her boyfriend. She decides to follow him to law school, while she is there, she figures out that there is more to her than just looks."
 //   }
 // ];
-
 // export default data;
