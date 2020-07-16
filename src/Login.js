@@ -21,7 +21,7 @@ const Login = ({history}) => {
         .signInWithEmailAndPassword(email, password)
         .then(res => {
           if (res.user) Auth.setLoggedIn(true);
-          history.push('/reports')
+          history.push('/DeckPage')
         })
         .catch(e => {
           setErrors(e.message);
@@ -41,7 +41,7 @@ const Login = ({history}) => {
       .signInWithPopup(provider)
       .then(result => {
         console.log(result)
-        history.push('/reports')
+        history.push('/DeckPage')
         Auth.setLoggedIn(true)
       })
       .catch(e => setErrors(e.message))

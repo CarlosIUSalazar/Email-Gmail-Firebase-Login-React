@@ -6,13 +6,21 @@
   "main": "src/index.js",
   "dependencies": {
     "firebase": "6.2.2",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "nuka-carousel": "^4.4.7",
+    "prop-types": "^15.7.2",
     "history": "4.9.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
-    "react-router-dom": "5.0.1",
-    "react-scripts": "3.0.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "react-spring": "^7.2.8",
+    "react-with-gesture": "^4.0.2",
+    "uuidv4": "^6.0.9"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
     "typescript": "3.3.3"
   },
   "scripts": {

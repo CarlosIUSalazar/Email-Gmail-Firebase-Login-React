@@ -1,11 +1,11 @@
 import React from 'react';
-import ReportsView from './ReportsView'
+import ReportsView from './Deck'
 
 const protectedRoutes = [
 	{
-		name: 'reports',
+		name: 'Deck',
 		exact: true,
-		path: '/reports',
+		path: '/DeckPage',
 		main: props => <ReportsView {...props} />,
 		public: false,
 	},
