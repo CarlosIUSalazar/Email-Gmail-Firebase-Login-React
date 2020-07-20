@@ -25,7 +25,6 @@ let data = [
 
 ///Attempt to generate 5 random cards ///
 function shuffleNewMovieDeck() {
-
     //data = [];
    
    let length = randomMovies.length;
