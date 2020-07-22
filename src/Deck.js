@@ -10,7 +10,6 @@ import * as firebase from "firebase";
 import firebaseConfig from "./firebase.config";
 import "./Deck.css";
 
-
 // export default () => {
 //   console.log('reports')
 //   return (
@@ -19,7 +18,6 @@ import "./Deck.css";
 //     </div>
 //   )
 // }
-
 let db = firebase.firestore();
 
 let data = [
