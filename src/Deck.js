@@ -6,7 +6,6 @@ import randomMovies from "./randomMovies.js";
 import { useSprings } from "react-spring/hooks";
 import { useGesture } from "react-with-gesture";
 import { useHistory } from "react-router-dom";
-
 import * as firebase from "firebase";
 import firebaseConfig from "./firebase.config";
 
