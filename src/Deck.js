@@ -8,7 +8,6 @@ import { useGesture } from "react-with-gesture";
 import { useHistory } from "react-router-dom";
 import * as firebase from "firebase";
 import firebaseConfig from "./firebase.config";
-
 import "./Deck.css";
 
 
